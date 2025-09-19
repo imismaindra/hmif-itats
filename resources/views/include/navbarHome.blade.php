@@ -1,11 +1,11 @@
 <!-- Enhanced Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#beranda">
-            <img src="{{ asset('image/hima.png') }}" alt="Logo ITATS" class="navbar-logo me-3">
+        <a class="navbar-brand d-flex align-items-center" href="{{ url('home') }}">
+            <img src="{{ asset('image/hima.png') }}" alt="Logo HMTIF" class="navbar-logo me-3">
             <div class="brand-text d-none d-md-block">
                 <div class="brand-title">Himpunan Mahasiswa</div>
-                <div class="brand-subtitle">Teknik Informatika</div>
+                <div class="brand-subtitle">Teknik Informatika ITATS</div>
             </div>
         </a>
 
@@ -24,25 +24,53 @@
                     </a>
                 </li>
 
+                <!-- Tentang -->
                 <li class="nav-item">
                     <a class="nav-link nav-link-custom" href="{{ url('about') }}">
                         <i class="fas fa-info-circle me-2"></i>Tentang
                     </a>
                 </li>
 
+                <!-- Organisasi Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="organisasiDropdown" role="button" data-bs-toggle="dropdown">
+                        <i class="fas fa-users me-2"></i>Organisasi
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="organisasiDropdown">
+                        <li><a class="dropdown-item dropdown-item-custom" href="{{ url('struktur') }}"><i class="fas fa-sitemap me-2"></i>Struktur</a></li>
+                        <li><a class="dropdown-item dropdown-item-custom" href="{{ url('divisi') }}"><i class="fas fa-layer-group me-2"></i>Divisi</a></li>
+                        <li><a class="dropdown-item dropdown-item-custom" href="{{ url('proker') }}"><i class="fas fa-tasks me-2"></i>Program Kerja</a></li>
+                    </ul>
+                </li>
+
+                <!-- Kegiatan / Galeri -->
                 <li class="nav-item">
-                    <a class="nav-link nav-link-custom" href="{{ url('fasilitas') }}">
-                        <i class="fas fa-building me-2"></i>Fasilitas
+                    <a class="nav-link nav-link-custom" href="{{ url('kegiatan') }}">
+                        <i class="fas fa-calendar-check me-2"></i>Kegiatan
                     </a>
                 </li>
 
                 <!-- Pengumuman -->
                 <li class="nav-item">
-                    <a class="nav-link nav-link-custom" href="#pengumuman">
+                    <a class="nav-link nav-link-custom" href="{{ url('pengumuman') }}">
                         <i class="fas fa-bullhorn me-2"></i>Pengumuman
                     </a>
                 </li>
+
+                <!-- Kontak -->
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="{{ url('kontak') }}">
+                        <i class="fas fa-envelope me-2"></i>Kontak
+                    </a>
+                </li>
             </ul>
+
+            <!-- Login Button -->
+            <div class="d-flex">
+                <a href="{{ url('login-guest') }}" class="btn btn-primary px-4 rounded-pill shadow-sm">
+                    <i class="fas fa-sign-in-alt me-2"></i>Login
+                </a>
+            </div>
         </div>
     </div>
 </nav>

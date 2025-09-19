@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akademik WR 1 - Home</title>
+    <title>HMIF - Home</title>
     <link rel="icon" type="image/png" href="{{ asset('image/itats-1080.jpg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -55,6 +55,14 @@
             background-color: #0056b3;
             border-color: #0056b3;
         }
+
+        /* ✅ Fix ukuran gambar carousel */
+        .carousel-inner img {
+            height: 400px;       /* semua gambar tinggi sama */
+            object-fit: cover;   /* isi frame tanpa mengubah proporsi */
+            width: 100%;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -65,17 +73,42 @@
     <section id="beranda" class="hero-section">
         <div class="container">
             <div class="row align-items-center">
+                <!-- Text -->
                 <div class="col-lg-6">
                     <h1 class="display-4 fw-bold mb-4">Himpunan Mahasiswa Teknik Informatika</h1>
-                    <p class="lead mb-4">Wadah kreativitas, kolaborasi, dan pengembangan diri bagi mahasiswa Teknik Informatika. Bersama kita ciptakan inovasi dan prestasi.</p>
+                    <p class="lead mb-4">
+                        Wadah kreativitas, kolaborasi, dan pengembangan diri bagi mahasiswa Teknik Informatika.
+                        Bersama kita ciptakan inovasi dan prestasi.
+                    </p>
                     <div class="d-flex gap-3">
                         <a href="#" class="btn btn-light btn-lg">
                             <i class="fas fa-plus me-2"></i>Bergabung dengan HMIF
                         </a>
                     </div>
                 </div>
+
+                <!-- Slider Gambar -->
                 <div class="col-lg-6">
-                    <img src="{{ asset('image/hmif-pmo.jpg') }}" alt="foto bersama" class="img-fluid rounded shadow">
+                    <div id="heroCarousel" class="carousel slide rounded shadow" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('image/hmif-pmo.jpg') }}" class="d-block w-100" alt="Foto 1 HMIF">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('image/hmif-wisuda72.jpg') }}" class="d-block w-100" alt="Foto 2 HMIF">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('image/hmif-outbound.jpg') }}" class="d-block w-100" alt="Foto 3 HMIF">
+                            </div>
+                        </div>
+                        <!-- Kontrol Navigasi -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

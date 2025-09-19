@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMTIF ITATS - Tentang</title>
+    <title>HMIF ITATS - Tentang</title>
     <link rel="icon" type="image/png" href="{{ asset('image/itats-1080.jpg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -55,8 +55,11 @@
     <section class="about-hero text-center d-flex align-items-center position-relative">
         <div class="overlay"></div>
         <div class="container text-white position-relative">
-            <h1 class="display-4 fw-bold">Tentang HMTIF ITATS</h1>
-            <p class="lead mt-3">Himpunan Mahasiswa Teknik Informatika</p>
+            <h1 class="display-4 fw-bold">Tentang HMIF ITATS</h1>
+            <p class="lead mt-3">
+                Himpunan Mahasiswa Teknik Informatika <br>
+                Institut Teknologi Adhi Tama Surabaya
+            </p>
         </div>
     </section>
 
