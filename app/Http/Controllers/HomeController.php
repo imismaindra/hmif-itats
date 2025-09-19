@@ -15,4 +15,9 @@ class HomeController extends Controller
     {
         return view('homepage.about');
     }
+
+    public function struktur()
+    {
+        return view('homepage.struktur');
+    }
 }

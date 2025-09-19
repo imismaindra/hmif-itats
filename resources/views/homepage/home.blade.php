@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HMIF - Home</title>
-    <link rel="icon" type="image/png" href="{{ asset('image/itats-1080.jpg') }}">
+    <link rel="icon" type="image/png" href="{{ asset('image/icon-hmif.jpg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -98,7 +98,7 @@
                                 <img src="{{ asset('image/hmif-wisuda72.jpg') }}" class="d-block w-100" alt="Foto 2 HMIF">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('image/hmif-outbound.jpg') }}" class="d-block w-100" alt="Foto 3 HMIF">
+                                <img src="{{ asset('image/hmif-baksos.jpg') }}" class="d-block w-100" alt="Foto 3 HMIF">
                             </div>
                         </div>
                         <!-- Kontrol Navigasi -->
