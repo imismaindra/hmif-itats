@@ -20,4 +20,12 @@ class HomeController extends Controller
     {
         return view('homepage.struktur');
     }
+    public function kegiatan()
+    {
+        return view('homepage.kegiatan');
+    }
+    public function divisi()
+    {
+        return view('homepage.divisi');
+    }
 }

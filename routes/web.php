@@ -14,3 +14,5 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/struktur', [HomeController::class, 'struktur'])->name('struktur');
+Route::get('/divisi', [HomeController::class, 'divisi'])->name('divisi');
+Route::get('/kegiatan', [HomeController::class, 'kegiatan'])->name('kegiatan');
