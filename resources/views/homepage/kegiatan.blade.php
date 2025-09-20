@@ -213,85 +213,83 @@
             <div class="tab-pane fade" id="pills-selesai" role="tabpanel">
                 k
             </div>
-            <!-- Modal -->
-            <div class="modal fade" id="modalWebDev" tabindex="-1" aria-labelledby="modalWebDevLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content border-0 rounded-4 shadow-lg">
-                <div class="modal-header border-0">
-                    <div class="d-flex gap-2">
-                    <span class="badge bg-info text-white fw-semibold">Akan Datang</span>
-                    <span class="badge bg-secondary text-dark fw-semibold">Workshop</span>
-                    </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
-                </div>
-                <div class="modal-body">
-                    <h4 class="fw-bold mb-4">Workshop Web Development: Build Your First Website</h4>
-
-                    <!-- Banner/Thumbnail -->
-                    <div class="p-5 bg-light rounded-3 text-center mb-4">
-                    <i class="bi bi-calendar2-week" style="font-size: 3rem; color:#0d6efd;"></i>
-                    </div>
-
-                    <!-- Info Grid -->
-                    <div class="row g-3">
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-calendar-event me-2"></i>Tanggal</small>
-                        <div class="fw-semibold">25 Oktober 2024</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-clock me-2"></i>Waktu</small>
-                        <div class="fw-semibold">09:00 - 15:00 WIB</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-geo-alt me-2"></i>Lokasi</small>
-                        <div class="fw-semibold">Lab Komputer Gedung A Lt. 3</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-people me-2"></i>Peserta</small>
-                        <div class="fw-semibold">25 / 40 orang</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-building me-2"></i>Penyelenggara</small>
-                        <div class="fw-semibold">Himpunan Mahasiswa Teknik Informatika</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 bg-light rounded-3 h-100">
-                        <small class="text-muted"><i class="bi bi-tags me-2"></i>Kategori</small>
-                        <div class="fw-semibold">Workshop</div>
-                        </div>
-                    </div>
-                    </div>
-
-                    <!-- Deskripsi -->
-                    <div class="mt-4">
-                    <h6 class="fw-bold">Deskripsi Kegiatan</h6>
-                    <p class="text-muted">
-                        Workshop ini membahas dasar-dasar HTML, CSS, dan JavaScript dari nol.
-                        Cocok untuk mahasiswa yang ingin memulai karir di bidang web development.
-                    </p>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                    <a href="#" class="btn btn-primary">Daftar Sekarang</a>
-                </div>
-                </div>
-            </div>
-            </div>
-
-
         </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="modalWebDev" tabindex="-1" aria-labelledby="modalWebDevLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+            <div class="modal-header border-0">
+                <div class="d-flex gap-2">
+                <span class="badge bg-info text-white fw-semibold">Akan Datang</span>
+                <span class="badge bg-secondary text-dark fw-semibold">Workshop</span>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+            </div>
+            <div class="modal-body">
+                <h4 class="fw-bold mb-4">Workshop Web Development: Build Your First Website</h4>
+
+                <!-- Banner/Thumbnail -->
+                <div class="p-5 bg-light rounded-3 text-center mb-4">
+                <i class="bi bi-calendar2-week" style="font-size: 3rem; color:#0d6efd;"></i>
+                </div>
+
+                <!-- Info Grid -->
+                <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-calendar-event me-2"></i>Tanggal</small>
+                    <div class="fw-semibold">25 Oktober 2024</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-clock me-2"></i>Waktu</small>
+                    <div class="fw-semibold">09:00 - 15:00 WIB</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-geo-alt me-2"></i>Lokasi</small>
+                    <div class="fw-semibold">Lab Komputer Gedung A Lt. 3</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-people me-2"></i>Peserta</small>
+                    <div class="fw-semibold">25 / 40 orang</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-building me-2"></i>Penyelenggara</small>
+                    <div class="fw-semibold">Himpunan Mahasiswa Teknik Informatika</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 bg-light rounded-3 h-100">
+                    <small class="text-muted"><i class="bi bi-tags me-2"></i>Kategori</small>
+                    <div class="fw-semibold">Workshop</div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Deskripsi -->
+                <div class="mt-4">
+                <h6 class="fw-bold">Deskripsi Kegiatan</h6>
+                <p class="text-muted">
+                    Workshop ini membahas dasar-dasar HTML, CSS, dan JavaScript dari nol.
+                    Cocok untuk mahasiswa yang ingin memulai karir di bidang web development.
+                </p>
+                </div>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     @include('include.footerUser')
