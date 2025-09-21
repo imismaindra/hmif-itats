@@ -33,6 +33,7 @@
         }
         .kegiatan-section {
             padding: 60px 0;
+            margin-bottom: 60px;
         }
         .kegiatan-icon {
             font-size: 3rem;
@@ -53,22 +54,13 @@
             margin-bottom: 30px;
             text-align: center;
         }
+
     </style>
 </head>
 <body>
     <!-- Navbar -->
     @include('include.navbarHome')
 
-    <!-- Hero Section -->
-    <!-- <section class="kegiatan-hero text-center d-flex align-items-center position-relative">
-        <div class="overlay"></div>
-        <div class="container text-white position-relative">
-            <h1 class="display-4 fw-bold">Kegiatan Himpunan Mahasiswa</h1>
-            <p class="lead mt-3">
-               Ikuti berbagai kegiatan menarik yang diselenggarakan oleh Himpunan Mahasiswa Teknik Informatika
-            </p>
-        </div>
-    </section> -->
 
     <!-- kegiatan Content -->
     <section class="kegiatan-section" data-aos="fade-up" data-aos-duration="1000">

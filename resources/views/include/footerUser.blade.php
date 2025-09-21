@@ -1,3 +1,8 @@
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
 <footer class="footer-modern">
     <div class="container">
         <div class="row g-4">
